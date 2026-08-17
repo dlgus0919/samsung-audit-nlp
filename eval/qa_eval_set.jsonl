@@ -1,0 +1,16 @@
+{"id":"S01","query":"2021년 매출액과 영업이익은 얼마인가요?","expected_years":[2021],"expected_sections":["포괄손익"],"must_include_keywords":["매출","영업이익"],"year_mode":"all"}
+{"id":"S02","query":"2023년 핵심감사사항은 무엇인가요?","expected_years":[2023],"expected_sections":["핵심감사사항"],"must_include_keywords":["핵심감사"],"year_mode":"all"}
+{"id":"S03","query":"2018년과 2019년의 현금흐름을 비교해주세요.","expected_years":[2018,2019],"expected_sections":["현금흐름"],"must_include_keywords":["현금흐름"],"year_mode":"all"}
+{"id":"S04","query":"감사의견이 변경된 연도가 있나요?","expected_years":[2014,2024],"expected_sections":["감사의견"],"must_include_keywords":["감사의견"],"year_mode":"any"}
+{"id":"S05","query":"2020년 재무상태표에서 자산총계를 알려주세요.","expected_years":[2020],"expected_sections":["재무상태표"],"must_include_keywords":["자산"],"year_mode":"all"}
+{"id":"S06","query":"2014년 주석에서 우발채무 관련 내용을 알려주세요.","expected_years":[2014],"expected_sections":["주석"],"must_include_keywords":["우발"],"year_mode":"all"}
+{"id":"S07","query":"2016년 감사의견은 적정의견인가요?","expected_years":[2016],"expected_sections":["감사의견"],"must_include_keywords":["적정"],"year_mode":"all"}
+{"id":"S08","query":"2019년 감사의견근거를 요약해주세요.","expected_years":[2019],"expected_sections":["감사의견근거"],"must_include_keywords":["감사"],"year_mode":"all"}
+{"id":"S09","query":"2017년과 2024년의 영업활동 현금흐름 추이를 설명해주세요.","expected_years":[2017,2024],"expected_sections":["현금흐름"],"must_include_keywords":["영업활동"],"year_mode":"all"}
+{"id":"S10","query":"2022년 부채총계와 자본총계를 알려주세요.","expected_years":[2022],"expected_sections":["재무상태표"],"must_include_keywords":["부채","자본"],"year_mode":"all"}
+{"id":"S11","query":"코로나19 불확실성이 언급된 연도를 찾아주세요.","expected_years":[2020,2021],"expected_sections":["핵심감사사항","주석"],"must_include_keywords":["코로나"],"year_mode":"any"}
+{"id":"S12","query":"핵심감사사항 추이를 연도별로 설명해주세요.","expected_years":[2018,2024],"expected_sections":["핵심감사사항"],"must_include_keywords":["핵심감사"],"year_mode":"any"}
+{"id":"S13","query":"2015년 포괄손익에서 당기순이익을 알려주세요.","expected_years":[2015],"expected_sections":["포괄손익"],"must_include_keywords":["순이익"],"year_mode":"all"}
+{"id":"S14","query":"2024년 감사인의 책임과 감사의견근거 핵심을 알려주세요.","expected_years":[2024],"expected_sections":["감사의견근거"],"must_include_keywords":["감사인의 책임"],"year_mode":"all"}
+{"id":"S15","query":"2018년부터 2024년까지 핵심감사사항의 변화가 있었나요?","expected_years":[2018,2024],"expected_sections":["핵심감사사항"],"must_include_keywords":["핵심감사"],"year_mode":"any"}
+{"id":"S16","query":"2021년 투자활동 현금흐름 관련 주요 내용을 알려주세요.","expected_years":[2021],"expected_sections":["현금흐름"],"must_include_keywords":["투자활동"],"year_mode":"all"}

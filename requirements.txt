@@ -1,0 +1,32 @@
+# ─── 데이터 처리 ───
+beautifulsoup4>=4.12
+lxml>=5.0
+pandas>=2.0
+numpy>=1.26
+
+# ─── 데이터베이스 ───
+# SQLite는 Python 표준 라이브러리에 포함 (별도 설치 불필요)
+
+# ─── NLP / 임베딩 ───
+sentence-transformers>=2.7,<3.0
+transformers>=4.40,<5.0
+torch>=2.2,<2.7
+
+# ─── 벡터 DB ───
+faiss-cpu>=1.8          # GPU 있으면 faiss-gpu 로 교체
+chromadb>=0.5           # FAISS 대신 ChromaDB 선택 시 활성화
+
+# ─── LLM API ───
+openai>=1.30            # GPT 계열 사용 시
+anthropic>=0.28         # Claude 사용 시 (선택)
+
+# ─── 웹 인터페이스 ───
+streamlit>=1.35
+
+# ─── 테스트 ───
+pytest>=8.0
+pytest-cov>=5.0
+
+# ─── 유틸리티 ───
+python-dotenv>=1.0      # .env 파일에서 API 키 로드
+tqdm>=4.66              # 진행 표시줄
